@@ -2,7 +2,7 @@
   "name": "VitiGest",
   "short_name": "VitiGest",
   "description": "Gestion de production et de ventes pour vignoble de raisin de table",
-  "start_url": "./VitiGest-1.4.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
