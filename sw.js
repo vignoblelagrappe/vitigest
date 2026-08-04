@@ -1,7 +1,7 @@
 // Service worker VitiGest — mise en cache pour un usage hors ligne après un premier chargement en ligne.
 // Ne fonctionne que lorsque VitiGest est servi via http(s) (ex. GitHub Pages) — pas en local file://.
-const CACHE_NAME = "vitigest-cache-1.5-nf";
-const APP_SHELL = ["./", "./index.html", "./VitiGest-1.5.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const CACHE_NAME = "vitigest-cache-1.5.1";
+const APP_SHELL = ["./", "./index.html", "./VitiGest-1.5.1.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
